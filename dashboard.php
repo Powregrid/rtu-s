@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="ar">
 <?php
 // Initialize the session
 @session_start();
@@ -21,8 +23,7 @@
 
 ?>
 
-<!DOCTYPE html>
-<html lang="ar">
+
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
