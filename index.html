@@ -18,10 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		 $_SESSION['pass']=$mypassword;
 		 //$_SESSION['par']=1;
 		// $par = 1;
-		 header('Location: dashboard.php');
+		 header('Location: dashboard.html');
 		
 		}else{
-		header('Location: index.php');
+		header('Location: index.html');
 		}
   
 }
@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		</div>
 		<h1>تسجيل الدخول</h1>
 		
-			 <form action="<?php //echo $_SERVER['PHP_SELF']?>" method="POST">
+			 <form action="<?php?>" method="POST">
 				 <label for="username">اسم المستخدم</label>
 				<input type="text" name="user" placeholder="ادخل اسم المستخدم" required>
 				<label for="password">كلمة المرور</label>
