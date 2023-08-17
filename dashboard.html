@@ -3,28 +3,10 @@
 <?php
 // Initialize the session
 @session_start();
-// include('connect.php');
-
-// Check if the user is logged in, if not then redirect him to login page
-// if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
-//     header("location: log.php");
-//     exit;
-// }
-//include('session.php');
  $user = $_SESSION['user'];
  $pass = $_SESSION['pass'];
-//  $par = $_SESSION['par']+1 ;
-?>
-<?php 
-//     if($par == 1){
-//     header("location:logout.php");
-// }
-
 
 ?>
-
-
-
 <head>
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     </link>
